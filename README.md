@@ -28,13 +28,6 @@ Furthermore, the server implements an asynchronous termination intercept sequenc
 
 ### Prerequisites
 * Go 1.22 or higher installed locally.
-
----
-
-## Compiling, Running, and Testing the Engine
-
-### Prerequisites
-* Go 1.22 or higher installed locally.
 * **Make** build utility configured on your host path.
 
 ### Automated Workspace Lifecycle Commands
@@ -52,14 +45,6 @@ make test
 
 # Automatically standardize codebase formatting and tidy local mod files
 make clean
-```
-
-
-### 2. Execute Automated Unit Tests
-The business constraints, payload structures, and multi-tenant isolation barriers are fully covered by a table-driven automated testing suite. Run the suite concurrently with detailed tracking flags:
-
-```bash
-go test -v ./...
 ```
 
 ---
